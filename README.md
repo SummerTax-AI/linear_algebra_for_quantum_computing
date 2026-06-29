@@ -13,6 +13,42 @@ This is course material for a course on linear algebra and mathematical prerequi
 
 ---
 
+## 🧭 This fork: from linear algebra to AI (read this first)
+
+This fork **extends the original course (Lectures 1–10) into a working system**
+that carries one thesis from theory to running code:
+
+> The same linear algebra that underlies quantum computing — vectors, inner
+> products, matrices, tensor products, eigen/SVD — also underlies modern AI.
+> **"Meaning is geometry,"** and you can build and measure real systems on it.
+
+Lectures 11–17 make that concrete and **executable**: training a quantum
+classifier, turning text into embeddings, doing semantic search and
+output-evaluation in vector space, building a transformer's attention from
+scratch, and a capstone that classifies language *on a quantum circuit*.
+
+**Reviewers / new workstations — start here:**
+
+- 📋 **[`REPRODUCE.md`](REPRODUCE.md)** — what we're building, exact setup, expected
+  results, one-command verification, and honest limits.
+- 🧠 **[`METHODOLOGY.md`](METHODOLOGY.md)** — the thesis, tiered into *usable today* /
+  *research* / *speculative* so nothing is oversold.
+- 🔎 **[`EXPLORATION.md`](EXPLORATION.md)** — the original-repo survey this fork began from.
+
+Quickstart (Python 3.11):
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements-lock.txt   # exact tested versions
+bash verify_notebooks.sh               # execute every notebook, report PASS/FAIL
+```
+
+> Honest note: no quantum *advantage* is claimed (the classical baseline ties),
+> and the original Lectures 5 & 10 use legacy Qiskit and are not part of the
+> reproducible system. Details in [`REPRODUCE.md`](REPRODUCE.md).
+
+---
+
 ## Why Linear Algebra?
 Linear algebra, the language of matrices and vectors, is the fundamental language of quantum computing and quantum information. Approaching quantum computing through linear algebra is the approach taken in the most cited textbook on the subject: ["Quantum Computation and Quantum Information"](https://www.amazon.com/gp/product/1107002176/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1107002176&linkCode=as2&tag=singularity07-20&linkId=10080ebd13739525bdfd76be97682775) by Nielsen & Chuang. This approach is also mathematically the most approachable for the complete beginner. If you have very little background in mathematics, physics, and computer programming, this approach is for you!
 

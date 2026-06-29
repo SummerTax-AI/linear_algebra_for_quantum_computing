@@ -1,0 +1,28 @@
+# Pinned, tested versions for the runnable "linear algebra -> AI" system
+# (Lectures 11-17). These are the exact versions the notebooks were executed
+# against; install these to reproduce the embedded outputs as closely as
+# possible. Python 3.11 was used.
+#
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements-lock.txt
+#
+# NOTE: `qiskit` is intentionally NOT pinned here. The ORIGINAL course
+# (Lectures 5 & 10) was written against Qiskit ~0.18 / Python 3.7 and does not
+# run on modern Qiskit. Lectures 11-17 — the reproducible system — do not use
+# Qiskit. See REPRODUCE.md.
+
+numpy==2.4.6
+scipy==1.17.1
+scikit-learn==1.9.0
+matplotlib==3.11.0
+pennylane==0.45.1
+sentence-transformers==5.6.0
+torch==2.12.1
+transformers==5.12.1
+anthropic==0.112.0          # only needed for Lecture 14 (requires ANTHROPIC_API_KEY)
+pydantic==2.13.4            # only needed for Lecture 14
+
+# Notebook execution / verification tooling
+jupyter-core==5.9.1
+nbconvert==7.17.1
+ipykernel==7.3.0
