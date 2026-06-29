@@ -61,5 +61,7 @@ Below are lectures using Jupyter notebooks that fully develop all of the basic m
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/linear_algebra_for_quantum_computing/master?filepath=lecture_10_quantum_gates.ipynb)
 - Lecture 11: [Training a Quantum Machine Learning Model (Variational Quantum Classifier)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_11_quantum_ml_training.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_11_quantum_ml_training.ipynb)
+- Lecture 12: [From Inner Products to Embeddings (how AI represents meaning)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_12_inner_products_to_embeddings.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_12_inner_products_to_embeddings.ipynb)
 
 
