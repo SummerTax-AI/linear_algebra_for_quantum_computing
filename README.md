@@ -59,5 +59,7 @@ Below are lectures using Jupyter notebooks that fully develop all of the basic m
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/linear_algebra_for_quantum_computing/master?filepath=lecture_9_tensor_product_matrices.ipynb)
 - Lecture 10: [Quantum Logic Gates as Matrices](https://github.com/The-Singularity-Research/linear_algebra_for_quantum_computing/blob/master/lecture_10_quantum_gates.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/The-Singularity-Research/linear_algebra_for_quantum_computing/master?filepath=lecture_10_quantum_gates.ipynb)
+- Lecture 11: [Training a Quantum Machine Learning Model (Variational Quantum Classifier)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_11_quantum_ml_training.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_11_quantum_ml_training.ipynb)
 
 

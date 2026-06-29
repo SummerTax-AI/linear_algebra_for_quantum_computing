@@ -1,2 +1,5 @@
 numpy
 qiskit
+pennylane
+scikit-learn
+matplotlib
