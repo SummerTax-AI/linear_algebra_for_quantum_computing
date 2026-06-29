@@ -68,5 +68,7 @@ Below are lectures using Jupyter notebooks that fully develop all of the basic m
 - Lecture 14: [Self-Consistency and Verified Reasoning with the Claude API](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_14_self_consistency_reasoning.ipynb) (requires an `ANTHROPIC_API_KEY` to run the live cells)
 - Lecture 15: [Quantum-Encoded Text Classification (Capstone)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_15_quantum_text_classification.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_15_quantum_text_classification.ipynb)
+- Lecture 16: [Eigenvalues, Eigenvectors, and the SVD](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_16_eigenvalues_and_svd.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_16_eigenvalues_and_svd.ipynb)
 
 
