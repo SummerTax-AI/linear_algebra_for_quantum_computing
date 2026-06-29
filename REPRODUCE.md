@@ -29,8 +29,11 @@ to running code:
 | 15 | **Capstone:** language → embedding → PCA → quantum classifier, end to end | ✅ executed |
 | 16 | **Eigenvalues/eigenvectors/SVD** — measurement ↔ PCA (the math hinge) | ✅ executed |
 | 17 | **Attention is inner products** — a transformer head from scratch in NumPy | ✅ executed |
+| 18 | **Projection — the universal readout** (geometry, AI, quantum measurement as one operation) | ✅ executed |
 
-`METHODOLOGY.md` is the written thesis, deliberately tiered into *usable today*,
+`FRAMEWORK.md` is the unifying thesis (computation as high-dimensional vectors
+observed through low-dimensional projections) with a claim→notebook map.
+`METHODOLOGY.md` is the written method, deliberately tiered into *usable today*,
 *research on open models*, and *speculative* (so claims aren't oversold).
 `EXPLORATION.md` is the original repo survey.
 
@@ -72,7 +75,7 @@ jupyter lab            # then open any lecture_*.ipynb and Run All
 ```
 
 ### Expected runtime
-`verify_notebooks.sh` executes 6 notebooks; budget **~5–10 minutes** total on a
+`verify_notebooks.sh` executes 7 notebooks; budget **~5–10 minutes** total on a
 laptop (first run is slower due to the model download). Individual heavy
 notebooks: Lecture 11 ~1 min, Lecture 15 ~2 min; the rest are seconds.
 
@@ -97,6 +100,10 @@ optimizer, so treat them as ranges, not exact targets. Pin via
   scikit-learn's `explained_variance_` (`match? True`).
 - **L17** — attention rows each sum to 1; one-call attention matches the
   step-by-step build; the causal mask is lower-triangular.
+- **L18** — projector is idempotent ($P^2=P$); the "finance" projection ranks
+  finance sentences highest and an unrelated sentence near 0; quantum Z/X
+  measurement probabilities match the squared projections, and a 5000-shot
+  simulation's empirical frequency ≈ theory.
 
 A green `verify_notebooks.sh` (PASS on all 6) means every notebook executed
 top-to-bottom with no errors on your machine.
@@ -146,13 +153,14 @@ model; structured outputs via `messages.parse`).
 ## 7. Repository layout
 
 ```
+FRAMEWORK.md          unifying thesis + claim->notebook map + honesty tiers
 EXPLORATION.md        original-repo survey (what this fork started from)
-METHODOLOGY.md        the thesis: linear algebra -> AI, tiered by what's real
+METHODOLOGY.md        the method: linear algebra -> AI, tiered by what's real
 REPRODUCE.md          this file
 requirements.txt      loose dependency list
 requirements-lock.txt pinned, tested versions (use this to review)
 verify_notebooks.sh   one-command execute-all + PASS/FAIL report
 Intro.ipynb,
 lecture_2..10_*.ipynb original course (Lectures 5 & 10 use legacy Qiskit)
-lecture_11..17_*.ipynb the extended "linear algebra -> AI" system
+lecture_11..18_*.ipynb the extended "linear algebra -> AI" system
 ```

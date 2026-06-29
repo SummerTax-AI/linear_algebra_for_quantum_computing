@@ -31,6 +31,9 @@ scratch, and a capstone that classifies language *on a quantum circuit*.
 
 - 📋 **[`REPRODUCE.md`](REPRODUCE.md)** — what we're building, exact setup, expected
   results, one-command verification, and honest limits.
+- 🧩 **[`FRAMEWORK.md`](FRAMEWORK.md)** — the unifying thesis (computation as
+  high-dimensional vectors observed through low-dimensional projections), with a
+  claim→notebook map and honesty tiers.
 - 🧠 **[`METHODOLOGY.md`](METHODOLOGY.md)** — the thesis, tiered into *usable today* /
   *research* / *speculative* so nothing is oversold.
 - 🔎 **[`EXPLORATION.md`](EXPLORATION.md)** — the original-repo survey this fork began from.
@@ -108,5 +111,7 @@ Below are lectures using Jupyter notebooks that fully develop all of the basic m
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_16_eigenvalues_and_svd.ipynb)
 - Lecture 17: [Attention is Inner Products (a Transformer's core in NumPy)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_17_attention_is_inner_products.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_17_attention_is_inner_products.ipynb)
+- Lecture 18: [Projection — the Universal Readout (geometry, AI, and quantum measurement as one operation)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_18_projection_universal_readout.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_18_projection_universal_readout.ipynb)
 
 

@@ -27,6 +27,7 @@ NOTEBOOKS=(
   "lecture_15_quantum_text_classification.ipynb"
   "lecture_16_eigenvalues_and_svd.ipynb"
   "lecture_17_attention_is_inner_products.ipynb"
+  "lecture_18_projection_universal_readout.ipynb"
 )
 
 OUT=".verify_out"
