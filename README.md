@@ -70,5 +70,7 @@ Below are lectures using Jupyter notebooks that fully develop all of the basic m
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_15_quantum_text_classification.ipynb)
 - Lecture 16: [Eigenvalues, Eigenvectors, and the SVD](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_16_eigenvalues_and_svd.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_16_eigenvalues_and_svd.ipynb)
+- Lecture 17: [Attention is Inner Products (a Transformer's core in NumPy)](https://github.com/SummerTax-AI/linear_algebra_for_quantum_computing/blob/master/lecture_17_attention_is_inner_products.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SummerTax-AI/linear_algebra_for_quantum_computing/master?filepath=lecture_17_attention_is_inner_products.ipynb)
 
 
