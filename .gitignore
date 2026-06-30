@@ -1,0 +1,12 @@
+# Reproducibility / review artifacts
+.verify_out/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

@@ -1,2 +1,8 @@
 numpy
 qiskit
+pennylane
+scikit-learn
+matplotlib
+sentence-transformers
+anthropic
+pydantic
