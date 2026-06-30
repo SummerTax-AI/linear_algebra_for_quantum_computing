@@ -29,6 +29,8 @@ scratch, and a capstone that classifies language *on a quantum circuit*.
 
 **Reviewers / new workstations — start here:**
 
+- 🧾 **[`HANDOFF.md`](HANDOFF.md)** — the condensed digest: the whole project in a few
+  minutes (thesis, lecture catalog, what's verified, how to run, open threads).
 - 📋 **[`REPRODUCE.md`](REPRODUCE.md)** — what we're building, exact setup, expected
   results, one-command verification, and honest limits.
 - 🧩 **[`FRAMEWORK.md`](FRAMEWORK.md)** — the unifying thesis (computation as
